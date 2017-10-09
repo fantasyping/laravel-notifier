@@ -11,7 +11,7 @@
                         <a href="{{ route('login') }}">Login</a>
                     </li>
                     <li class="active col-sm-6" style="padding-left: 0">
-                        <a href="{{ route('register') }}">Signup</a>
+                        <a href="{{ route('register') }}">Register</a>
                     </li>
                 </ul>
             </div>
