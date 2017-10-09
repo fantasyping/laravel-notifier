@@ -2,25 +2,22 @@
 
 @section('content')
 
-<div class="container">
+<div class="container" style="margin-top: 80px;">
     <div class="login-signup">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 nav-tab-holder">
-                <ul class="nav nav-tabs row" style="border-bottom: none;">
-                    <li class="col-sm-6" style="padding-right: 0">
-                        <a href="{{ route('login') }}">Login</a>
-                    </li>
-                    <li class="active col-sm-6" style="padding-left: 0">
-                        <a href="{{ route('register') }}">Register</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
         <div class="tab-content">
-            <div class="tab-pane active" id="profile">
+            <div class="tab-pane active" id="home">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 mobile-pull">
+                    <div class="col-md-6 col-md-offset-3 nav-tab-holder">
+                        <ul class="nav nav-tabs row" style="border-bottom: none;">
+                            <li class="col-sm-6" style="padding-right: 0">
+                                <a href="{{ route('login') }}">Login</a>
+                            </li>
+                            <li class="active col-sm-6" style="padding-left: 0">
+                                <a href="{{ route('register') }}">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 mobile-pull">
                         <div class="panel panel-default">
 
                             <div class="panel-body">
@@ -28,7 +25,7 @@
                                     {{ csrf_field() }}
 
                                     <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
-                                        <label for="name" class="col-md-4 control-label">Name</label>
+                                        <label for="name" class="col-md-4 control-label">Full Name</label>
 
                                         <div class="col-md-6">
                                             <input id="name" type="text" class="form-control" name="name" value="{{ old('name') }}" required autofocus>

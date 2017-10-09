@@ -1,0 +1,36 @@
+#home .nav-tab-holder ul{
+	border: none;
+}
+#home .nav-tab-holder ul li{
+	text-align: center;
+}
+#home .nav-tab-holder .nav .active a{
+	background-color: rgb(2, 2, 2);
+	margin: 0;
+}
+#home .nav-tab-holder .nav li a{
+	padding: 0;
+	background-color: rgb(122, 122, 122);
+	margin: 0;
+}
+#home .nav-tab-holder ul li a{
+	color: white;
+	font-size:28px;
+	font-weight: bold;
+}
+#home .mobile-pull .panel{
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+#home .mobile-pull .panel .panel-body{
+	padding: 50px 15px 25px;
+}
+#home .mobile-pull .panel .panel-body .btn{
+	width: 100%;
+	background-color: rgb(204, 0, 0);
+	font-size: 1.53em;
+	color: white;
+}
+#home .mobile-pull .panel .panel-body .btn:hover{
+	background-color: rgb(31, 31, 31);
+}

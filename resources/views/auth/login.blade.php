@@ -2,25 +2,23 @@
 
 @section('content')
 
-<div class="container">
+<div class="container" style="margin-top: 80px;">
     <div class="login-signup">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 nav-tab-holder">
-                <ul class="nav nav-tabs row" role="tablist" style="border-bottom: none;">
-                    <li role="presentation" class="active col-sm-6" style="padding-right: 0">
-                        <a href="{{ route('login') }}">Login</a>
-                    </li>
-                    <li role="presentation" class="col-sm-6" style="padding-left: 0">
-                        <a href="{{ route('register') }}">Register</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
 
         <div class="tab-content">
             <div role="tabpanel" class="tab-pane active" id="home">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 mobile-pull">
+                    <div class="col-md-6 col-md-offset-3 nav-tab-holder">
+                        <ul class="nav nav-tabs row" role="tablist">
+                            <li role="presentation" class="active col-sm-6" style="padding-right: 0">
+                                <a href="{{ route('login') }}">Login</a>
+                            </li>
+                            <li role="presentation" class="col-sm-6" style="padding-left: 0">
+                                <a href="{{ route('register') }}">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-md-offset-3 mobile-pull">
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -65,12 +63,13 @@
                                     </div>
 
                                     <div class="form-group">
-                                        <div class="col-md-8 col-md-offset-4">
-                                            <button type="submit" class="btn btn-primary">
+                                        <div class="col-md-6 col-md-offset-4">
+                                            <button type="submit" class="btn submit">
                                                 Login
                                             </button>
-
-                                            <a class="btn btn-link" href="{{ route('password.request') }}">
+                                            <br />
+                                            <br />
+                                            <a class="btn-link" href="{{ route('password.request') }}">
                                                 Forgot Your Password?
                                             </a>
                                         </div>
