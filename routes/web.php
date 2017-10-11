@@ -11,10 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('auth.login');
+ Auth::routes();
+  
+  
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', ['as' => 'home', 'uses' => 'HomeController@index'])->name('home');
+  
+
+Route::group(['middleware' => 'auth'], function () {
+  	
+  	Route::get('/alert/new', [
+  		'as' => 'create', 
+  		'uses' => 'AlertController@create'
+  	]);
+
 });
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
