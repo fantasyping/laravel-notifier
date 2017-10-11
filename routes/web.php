@@ -11,12 +11,16 @@
 |
 */
 
+<<<<<<< HEAD
  Auth::routes();
   
   
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', ['as' => 'home', 'uses' => 'HomeController@index'])->name('home');
   
+=======
+// Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index'])->name;
+>>>>>>> 8f2a466ec131a807a8afde55d4a499db6ef685c8
 
 Route::group(['middleware' => 'auth'], function () {
   	
@@ -25,4 +29,10 @@ Route::group(['middleware' => 'auth'], function () {
   		'uses' => 'AlertController@create'
   	]);
 
+<<<<<<< HEAD
 });
+=======
+
+Route::get('/', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
+>>>>>>> 8f2a466ec131a807a8afde55d4a499db6ef685c8
