@@ -2,10 +2,9 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
-
-class HomeController extends Controller
-{
-    /**
+class AlertController extends Controller
+{	
+	/**
      * Create a new controller instance.
      *
      * @return void
@@ -15,16 +14,13 @@ class HomeController extends Controller
         $this->middleware('auth');
     }
     /**
-     * Show the application dashboard.
+     * Show the form for selecting a model.
      *
-     * @return \Illuminate\Http\Response
+     *
+     * @return 
      */
-    public function index()
+    public function create() 
     {
-        if(Auth::check()){
-            return view('pages.home');    
-        }
-        
-        return Redirect::to('/login');
+		return view('pages.customers.index');
     }
 }

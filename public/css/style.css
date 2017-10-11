@@ -34,3 +34,26 @@
 #home .mobile-pull .panel .panel-body .btn:hover{
 	background-color: rgb(31, 31, 31);
 }
+.footer{
+	padding-top: 15px !important;
+}
+#main .main-content{
+	padding-top: 150px;
+	text-align: center;
+}
+#main .content-btns{
+	width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 25px;
+    color: black;
+    background-color: white;
+}
+#main .container .main-section{
+	text-align: center;
+}
+#main .container .main-section .model-list{
+	margin-top: 100px;
+}
