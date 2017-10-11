@@ -22,7 +22,7 @@ class HomeController extends Controller
     public function index()
     {
         if(Auth::check()){
-            return view('home');    
+            return view('pages.home');    
         }
         
         return Redirect::to('/login');
