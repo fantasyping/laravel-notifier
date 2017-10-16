@@ -1,5 +1,9 @@
 @extends('layouts.default')
-
+<style type="text/css">
+    .navbar-header .navbar-toggle{
+        display: none;
+    }
+</style>
 @section('content')
 
 <div class="container" style="margin-top: 80px;">
