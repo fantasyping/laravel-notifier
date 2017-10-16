@@ -1,5 +1,5 @@
-<div class="navbar navbar-fixed-bottom navbar-default footer">
-	<div class="container footer-navbar">
+<div class="footer">
+	<div class="col-md-12 footer-navbar">
         <strong>Copyright &copy; 2017 <a href="/">teslaalerts.com</a>. All rights reserved.</strong> 
 
         <div class="pull-right">

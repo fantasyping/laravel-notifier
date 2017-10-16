@@ -36,6 +36,10 @@
 }
 .footer{
 	padding-top: 15px !important;
+	background-color: #fff;
+    border-color: #d3e0e9;
+    border-width: 1px 0 0;
+    border-top: 1px solid #d3e0e9;
 }
 #main .main-content{
 	padding-top: 150px;
