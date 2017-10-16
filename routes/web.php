@@ -25,9 +25,13 @@ Route::group(['middleware' => 'auth'], function () {
   		'uses' => 'AlertController@modelList'
   	]);
 
-  	Route::get('/new/{id}/create', [
+  	Route::get('/new/1/create', [
   		'as' => 'createAlert', 
   		'uses' => 'AlertController@create'
+  	]);
+  	Route::get('/new/2/create', [
+  		'as' => 'createAlert', 
+  		'uses' => 'AlertController@createSecond'
   	]);
 });
 

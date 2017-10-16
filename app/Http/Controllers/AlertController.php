@@ -36,4 +36,8 @@ class AlertController extends Controller
     {
         return view('pages.customers.createAlert');
     }
+    public function createSecond()
+    {
+        return view('pages.customers.createAlert1');   
+    }
 }
