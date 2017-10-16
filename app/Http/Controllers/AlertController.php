@@ -1,7 +1,10 @@
 <?php
+
 namespace App\Http\Controllers;
+
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Http\Request;
+
 class AlertController extends Controller
 {	
 	/**
@@ -19,8 +22,18 @@ class AlertController extends Controller
      *
      * @return 
      */
+    public function modelList() 
+    {
+		return view('pages.customers.modelList');
+    }
+    /**
+     * Show the form for creating a alert.
+     *
+     *
+     * @return 
+     */
     public function create() 
     {
-		return view('pages.customers.index');
+        return view('pages.customers.createAlert');
     }
 }

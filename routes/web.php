@@ -20,10 +20,14 @@ Route::get('/home', ['as' => 'home', 'uses' => 'HomeController@index'])->name('h
 
 Route::group(['middleware' => 'auth'], function () {
   	
-  	Route::get('/alert/new', [
-  		'as' => 'create', 
-  		'uses' => 'AlertController@create'
+  	Route::get('/new/model', [
+  		'as' => 'selectModel', 
+  		'uses' => 'AlertController@modelList'
   	]);
 
+  	Route::get('/new/{id}/create', [
+  		'as' => 'createAlert', 
+  		'uses' => 'AlertController@create'
+  	]);
 });
 

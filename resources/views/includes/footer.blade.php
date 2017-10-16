@@ -1,13 +1,10 @@
 <div class="navbar navbar-fixed-bottom navbar-default footer">
-
 	<div class="container footer-navbar">
-	        <strong>Copyright &copy; 2017 <a href="/">teslaalerts.com</a>.</strong> All rights
-	        reserved.
+        <strong>Copyright &copy; 2017 <a href="/">teslaalerts.com</a>. All rights reserved.</strong> 
 
-	        <div class="pull-right">
-	            <a href="/privacy">Site Privacy Policy</a> | <a href="/terms">Terms of Use</a> | <a href="/contact">Contact Us</a>
-	        </div>
-
+        <div class="pull-right">
+            <a href="/">Site Privacy Policy</a> | <a href="/">Terms of Use</a> | <a href="mailto:admin@teslaalerts.com">Contact Us</a>
+        </div>
 	</div>
 
 </div>

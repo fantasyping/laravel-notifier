@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel-body">
-                <a href="{{ URL::to('/alert/new') }}" class="btn btn-sq-lg content-btns">
+                <a href="{{ URL::to('/new/model') }}" class="btn btn-sq-lg content-btns">
                     <img src="{{asset('images/deal-alert.png')}}" class="first-img"><br/><br/>
                     Create a Deal Alert
                 </a>
