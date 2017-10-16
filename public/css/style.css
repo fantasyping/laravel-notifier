@@ -1,3 +1,15 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#app{
+	min-height: 100%;
+	position: relative;
+}
+#main{
+	margin-bottom: 120px;
+}
 #home .nav-tab-holder ul{
 	border: none;
 }
@@ -42,8 +54,11 @@
     border-top: 1px solid #d3e0e9;
 }
 #main .main-content{
-	padding-top: 150px;
+	padding-top: 100px;
 	text-align: center;
+}
+#main .main-content .panel-body .col-md-4{
+	padding: 20px 0;
 }
 #main .content-btns{
 	width: 150px;
@@ -136,4 +151,54 @@ form .setup-content .col-xs-6 .col-md-12 .submitBtn{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+}
+
+@media screen and (max-width:320px) {
+
+}
+
+@media screen and  (max-width:659px) {
+	.footer-navbar{
+		text-align: center;
+	}
+	footer .pull-right{
+		width: 100%;
+		padding: 5px 0px 10px;
+	}
+}
+
+@media screen and  (max-width:768px) {
+	#app-navbar-collapse ul{
+		text-align: right;
+	}
+	.login-signup .nav-tab-holder ul li{
+		width: 50%;
+	}
+
+}
+
+@media screen and  (max-width:992px) {
+	#main .container .main-section .model-list{
+		margin-top:30px;
+	}
+	#main .container .main-section .model-list .col-md-6{
+		padding: 30px 0;
+	}	
+	#main .main-content{
+		padding-top: 10px;
+	}
+	.setup-content .alert-itemlist{
+		width: 100% !important;
+	}
+}
+
+#main .container .main-section .model-list .col-md-6 img{
+	margin: 0 auto;
+}
+.setup-content .form-check .form-check-label span{
+	padding-left: 20px;
+	font-size: 20px;
+}
+.alert-itemlist{
+	width: 100% !important;
 }

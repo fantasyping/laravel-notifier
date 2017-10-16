@@ -10,16 +10,12 @@
 		          	</span>
 		      	<div class="row model-list">
 			      	<div class="col-md-6">
-			          	<div class="clearfix">
-			         		<img src="{{asset('images/model-s.png')}}">
-			         		<a href="{{ URL::to('/new/1/create') }}"><h2>Model S</h2></a>
-			          	</div>
+		         		<img class="img-responsive" src="{{asset('images/model-s.png')}}">
+		         		<a href="{{ URL::to('/new/1/create') }}"><h2>Model S</h2></a>
 			        </div>
 			        <div class="col-md-6">
-			          	<div class="clearfix">
-			         		<img src="{{asset('images/model-x.png')}}">
-			         		<a href="{{ URL::to('/new/2/create') }}"><h2>Model x</h2></a>
-			          	</div>
+		         		<img class="img-responsive" src="{{asset('images/model-x.png')}}">
+		         		<a href="{{ URL::to('/new/2/create') }}"><h2>Model x</h2></a>
 		        	</div>	
 		      	</div>
 		       	

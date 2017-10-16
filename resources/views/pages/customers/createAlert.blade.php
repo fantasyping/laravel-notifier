@@ -30,7 +30,7 @@
   
   	<form role="form" action="" method="post" style="text-align: center;">
 	    <div class="row setup-content" id="step-1">
-	      	<div class="col-xs-6 col-md-offset-3">
+	      	<div class="alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 2/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -40,31 +40,31 @@
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	75D
+			            	<span>75D</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	90D
+			            	<span>90D</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	P90D
+			            	<span>D90D</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	100D
+			            	<span>100D</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	P100D
+			            	<span>P100D</span>
 			            </label>
 		          	</div>
 
@@ -73,7 +73,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-2">
-	      	<div class="col-xs-6 col-md-offset-3">
+	      	<div class="alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 3/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -82,19 +82,19 @@
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	5 Seat Configuration
+			            	<span>5 Seat Configuration</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	6 Seat Configuration
+			            	<span>6 Seat Configuration</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	7 Seat Configuration
+			            	<span>7 Seat Configuration</span>
 			            </label>
 		          	</div>
 		          	<button class="btn btn-primary backBtn btn-lg pull-left" type="button" >Back</button>
@@ -103,7 +103,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-3">
-	      	<div class="col-xs-6 col-md-offset-3">
+	      	<div class="alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 4/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -112,25 +112,25 @@
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Premium Upgrades Package
+			            	<span>Premium Upgrades Package</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Subzero Weather Package
+			            	<span>Subzero Weather Package</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Ultra High Fidelity Sound
+			            	<span>Ultra High Fidelity Sound</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Smart Air Suspension
+			            	<span>Smart Air Suspension</span>
 			            </label>
 		          	</div>
 		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
@@ -138,7 +138,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-4">
-	      	<div class="col-xs-6 col-md-offset-3">
+	      	<div class="alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 5/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -147,31 +147,31 @@
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Blue
+			            	<span>Blue</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Black
+			            	<span>Black</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	White
+			            	<span>White</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Silver
+			            	<span>Silver</span>
 			            </label>
 		          	</div>
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Red
+			            	<span>Red</span>
 			            </label>
 		          	</div>
 		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
@@ -179,7 +179,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-5">
-	      	<div class="col-xs-6 col-md-offset-3">
+	      	<div class="alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 6/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -188,14 +188,14 @@
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Item 5
+			            	<span>Item 5</span>
 			            </label>
 		          	</div>
 		          	
 		          	<div class="form-check">
 			            <label class="form-check-label">
 			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	Item 5
+			            	<span>Item 5</span>
 			            </label><br />
 			            
 		          	</div>

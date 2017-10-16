@@ -15,7 +15,7 @@
 
         </div>
 
-        <footer class="row">
+        <footer class="row" id="footer">
             @include('includes.footer')
         </footer>
     </div>
