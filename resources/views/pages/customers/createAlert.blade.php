@@ -30,7 +30,7 @@
   
   	<form role="form" action="" method="post" style="text-align: center;">
 	    <div class="row setup-content" id="step-1">
-	      	<div class="alert-itemlist">
+	      	<div class="col-xs-6 col-md-offset-3 alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 2/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -73,7 +73,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-2">
-	      	<div class="alert-itemlist">
+	      	<div class="col-xs-6 col-md-offset-3 alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 3/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -103,7 +103,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-3">
-	      	<div class="alert-itemlist">
+	      	<div class="col-xs-6 col-md-offset-3 alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 4/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -138,7 +138,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-4">
-	      	<div class="alert-itemlist">
+	      	<div class="col-xs-6 col-md-offset-3 alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 5/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
@@ -179,7 +179,7 @@
 	      	</div>
 	    </div>
 	    <div class="row setup-content" id="step-5">
-	      	<div class="alert-itemlist">
+	      	<div class="col-xs-6 col-md-offset-3 alert-itemlist">
 		        <div class="col-md-12">
 		          	<span>Step 6/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
