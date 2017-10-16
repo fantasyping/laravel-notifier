@@ -4,12 +4,12 @@
     @include('includes.head')
 </head>
 <body>
-    <div id="app" class="container">
+    <div id="app">
         <header class="row">
             @include('includes.header')
         </header>
 
-        <div id="main" class="row">
+        <div id="main" class="container">
 
                 @yield('content')
 
