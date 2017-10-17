@@ -184,19 +184,34 @@
 		          	<span>Step 6/6 
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
 		          	</span>
-
-		          	<div class="form-check">
-			            <label class="form-check-label">
-			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	<span>Item 5</span>
-			            </label>
+		          	<input type="hidden" autofocus="true" name="">
+		          	<div class="form-check row">
+		          		<div class="col-md-6">
+		          			<span>Minimum Price Adjustment:</span>
+		          		</div>
+		          		<div class="col-md-6">
+		          			<div class="col-md-3">
+				            	<span>$<input type="text" id="rangeSuccess1" value="15000"></output></span>
+				            </div>
+				            <div class="col-md-9">
+				            	<input type="range" name="range" min="7000" max="200000" value="15000"  onchange="rangeSuccess1.value=value">
+				            </div>
+		          		</div>
 		          	</div>
 		          	
-		          	<div class="form-check">
-			            <label class="form-check-label">
-			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	<span>Item 5</span>
-			            </label><br />
+		          	<div class="form-check row">
+		          		<div class="col-md-6">
+		          			<span>Minimum Price(before tax credit):</span>
+		          		</div>
+		          		<div class="col-md-6">
+			          		<div class="col-md-3">
+				            	<output id="rangeSuccess2"></output>
+				            </div>
+				            <div class="col-md-8">
+				            	<input type="range" name="range" min="15000" max="200000" value="100000" onchange="rangeSuccess2.value=value">
+				            </div>	
+		          		</div>
+			            
 			            
 		          	</div>
 		          	<a href="/" class="btn btn-success submitBtn btn-lg pull-right" type="submit">Submit</a>

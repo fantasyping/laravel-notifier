@@ -9,9 +9,12 @@
 
 <!-- Styles -->
 <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+<link href="{{ asset('css/bootstrap-slider.min.css') }}" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 <!-- Scripts -->
-<script type="text/javascript" src="https://s3-us-west-1.amazonaws.com/firstplace-4545/09222017/js/jquery-1.9.1.min.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/customquiz.js') }}"></script>
