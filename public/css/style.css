@@ -122,7 +122,7 @@ html, body{
     position: relative;
 }
 .alert-itemlist .col-md-12{
-	min-height: 500px !important;
+	min-height: 400px !important;
 }
 .btn-circle {
     width: 30px;
@@ -146,7 +146,7 @@ form .setup-content .col-xs-6 .col-md-12{
 form .setup-content .col-xs-6 .col-md-12 .nextBtn{
 	position: absolute;
 	bottom: 0;
-	right: 0;
+	right: 15px;
 }
 form .setup-content .col-xs-6 .col-md-12 .backBtn{
 	position: absolute;
@@ -159,7 +159,30 @@ form .setup-content .col-xs-6 .col-md-12 .submitBtn{
 	right: 0;
 }
 
-@media screen and (max-width:320px) {
+
+
+#main .container .main-section .model-list .col-md-6 img{
+	margin: 0 auto;
+}
+.setup-content .form-check .form-check-label span{
+	padding-left: 20px;
+	font-size: 20px;
+}
+#step-5 .form-check{
+	margin-top: 20px;
+}
+#step-5 .form-check:first-child{
+	margin-top: 100px;
+}
+
+#step-5 .form-check span, output{
+	font-size: 20px;
+	font-weight: 700;
+}
+@media screen and (max-width:430px) {
+	#step-5 .form-check:first-child{
+		margin-top: 50px;
+	}
 
 }
 
@@ -196,12 +219,4 @@ form .setup-content .col-xs-6 .col-md-12 .submitBtn{
 	.setup-content .alert-itemlist{
 		width: 100% !important;
 	}
-}
-
-#main .container .main-section .model-list .col-md-6 img{
-	margin: 0 auto;
-}
-.setup-content .form-check .form-check-label span{
-	padding-left: 20px;
-	font-size: 20px;
 }

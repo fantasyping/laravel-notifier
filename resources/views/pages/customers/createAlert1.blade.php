@@ -196,18 +196,37 @@
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
 		          	</span>
 		          	
-		          	<div class="form-check">
-			            <label class="form-check-label">
-			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	<span>Item 5</span>
-			            </label>
+		          	<input type="hidden" autofocus="true" name="">
+		          	<div class="form-check row" style="margin-top: 100px;">
+		          		<div class="col-md-6">
+		          			<span>Minimum Price Adjustment:</span>
+		          		</div>
+		          		<div class="col-md-6">
+		          			<div class="col-md-4">
+		          				<span style="position: absolute; left: 0;">$</span>
+		          				<output id="rangeSuccess1" for="priceA" style="padding-top: 0;">15000</output>
+		          			</div>
+				            <div class="col-md-8">
+				            	<input type="range" id="priceA" name="range" min="000" max="200000" value="15000"  onchange="rangeSuccess1.value=value">
+				            </div>
+				            	
+		          		</div>
 		          	</div>
 		          	
-		          	<div class="form-check">
-			            <label class="form-check-label">
-			            	<input type="checkbox" class="form-checkbox-input" name="" value="">
-			            	<span>Item 5</span>
-			            </label><br />
+		          	<div class="form-check row">
+		          		<div class="col-md-6">
+		          			<span>Minimum Price(before tax credit):</span>
+		          		</div>
+		          		<div class="col-md-6">
+			          		<div class="col-md-4">
+			          			<span style="position: absolute; left: 0;">$</span>
+		          				<output id="rangeSuccess2" for="priceB" style="padding-top: 0;">100000</output>
+		          			</div>
+				            <div class="col-md-8">
+				            	<input type="range" id="priceB" name="range" min="" max="200000" value="100000"  onchange="rangeSuccess2.value=value">
+				            </div>	
+		          		</div>
+			            
 			            
 		          	</div>
 		          	<a href="/" class="btn btn-success submitBtn btn-lg pull-right" type="submit">Submit</a>
