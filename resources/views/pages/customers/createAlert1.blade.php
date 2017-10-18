@@ -68,7 +68,7 @@
 			            </label>
 		          	</div>
 
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" id="next1" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -97,8 +97,7 @@
 			            	<span>7 Seat Configuration</span>
 			            </label>
 		          	</div>
-		          	<button class="btn btn-primary backBtn btn-lg pull-left" type="button" >Back</button>
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" id="next2" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -145,7 +144,7 @@
 			            	<span>Towing Package</span>
 			            </label>
 		          	</div>
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" id="next3" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -186,7 +185,7 @@
 			            	<span>Red</span>
 			            </label>
 		          	</div>
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" id="next4" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>

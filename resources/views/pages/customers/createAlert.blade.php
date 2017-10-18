@@ -28,7 +28,7 @@
 	    </div>
   	</div>
   
-  	<form role="form" action="" method="post" style="text-align: center;">
+  	<form role="form" action="" id="form" method="post" style="text-align: center;">
 	    <div class="row setup-content" id="step-1">
 	      	<div class="col-xs-6 col-md-offset-3 alert-itemlist">
 		        <div class="col-md-12">
@@ -68,7 +68,7 @@
 			            </label>
 		          	</div>
 
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" id="next1" type="button" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -97,8 +97,7 @@
 			            	<span>7 Seat Configuration</span>
 			            </label>
 		          	</div>
-		          	<button class="btn btn-primary backBtn btn-lg pull-left" type="button" >Back</button>
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" id="next2" type="button" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -133,7 +132,7 @@
 			            	<span>Smart Air Suspension</span>
 			            </label>
 		          	</div>
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" id="next3" type="button" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -174,7 +173,7 @@
 			            	<span>Red</span>
 			            </label>
 		          	</div>
-		          	<button class="btn btn-primary nextBtn btn-lg pull-right" type="button" >Next</button>
+		          	<button class="btn btn-primary nextBtn btn-lg pull-right" id="next4" type="button" disabled>Next</button>
 		        </div>
 	      	</div>
 	    </div>
@@ -185,17 +184,13 @@
 		          		<span style="font-size: 30px; padding-left: 25px;"><strong>Create a Deal Alert</strong></span>
 		          	</span>
 		          	<input type="hidden" autofocus="true" name="">
-		          	<div class="form-check row">
+		          	<div class="row">
 		          		<div class="col-md-6">
 		          			<span>Minimum Price Adjustment:</span>
 		          		</div>
 		          		<div class="col-md-6">
-		          			<div class="col-md-3">
-				            	<span>$<input type="text" id="rangeSuccess1" value="15000"></output></span>
-				            </div>
-				            <div class="col-md-9">
-				            	<input type="range" name="range" min="7000" max="200000" value="15000"  onchange="rangeSuccess1.value=value">
-				            </div>
+				            	$<output id="rangeSuccess1" for="priceA" >15000</output>
+				            	<input type="range" id="priceA" name="range" min="000" max="200000" value="15000"  onchange="rangeSuccess1.value=value">
 		          		</div>
 		          	</div>
 		          	
@@ -221,5 +216,7 @@
   	</form>
   
 </div>
+<script type="text/javascript">
 
+</script>
 @endsection
